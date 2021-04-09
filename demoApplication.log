@@ -5466,3 +5466,34 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a 
 [main] INFO  metadata.CustomersMetaData  - Result is printed
 [main] INFO  connection.DatabaseConnection  - Closing database connection
 [main] INFO  connection.DatabaseConnection  - Database connection closed
+[main] INFO  connection.DatabaseConnection  - Connection to database...
+[main] INFO  connection.DatabaseConnection  - Connection successful!
+[main] INFO  metadata.CustomersMetaData  - SELECT * FROM sales.customers WHERE customer_id = 118
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Result is printed
+[main] INFO  metadata.BrandsMetaData  - Execute query: SELECT * FROM production.brands WHERE brand_name = 'Strider'
+[main] INFO  metadata.BrandsMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Result is printed
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers WHERE last_name = 'Black'
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Result is printed
+[main] INFO  metadata.BrandsMetaData  - Execute query: SELECT * FROM production.brands WHERE brand_id =1
+[main] INFO  metadata.BrandsMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Result is printed
+[main] INFO  metadata.BrandsMetaData  - Execute query: SELECT * FROM production.brands
+[main] INFO  metadata.BrandsMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Execute query: SELECT * FROM sales.customers
+[main] INFO  metadata.CustomersMetaData  - Query was executed successfully
+[main] INFO  metadata.CustomersMetaData  - Result is printed
+[main] INFO  connection.DatabaseConnection  - Closing database connection
+[main] INFO  connection.DatabaseConnection  - Database connection closed
