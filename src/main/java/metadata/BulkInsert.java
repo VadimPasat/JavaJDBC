@@ -16,7 +16,6 @@ public class BulkInsert {
     public static String[] fileToArray(String filename) {
         BufferedReader reader = null;
         List<String> textFromFile = new ArrayList<String>();
-
         try {
             log.info("Reading .csv file");
             reader = new BufferedReader(new FileReader(filename));

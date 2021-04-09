@@ -12,4 +12,5 @@ import java.io.Serializable;
 public class ProductionBrandsData implements Serializable {
     private int brand_id;
     private String brandName;
+
 }

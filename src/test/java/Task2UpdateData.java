@@ -22,6 +22,7 @@ public class Task2UpdateData {
         customers = new CustomersMetaData();
     }
 
+
     @AfterAll
     static public void tearDown() {
         DatabaseConnection.close();

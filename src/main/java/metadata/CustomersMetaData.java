@@ -9,7 +9,6 @@ import java.sql.*;
 
 import static metadata.BulkInsert.fileToArray;
 
-
 @Log4j
 public class CustomersMetaData implements GenericsData<SalesCustomersData> {
     private Connection connection;

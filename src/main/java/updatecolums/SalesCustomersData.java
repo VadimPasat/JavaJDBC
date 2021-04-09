@@ -1,4 +1,5 @@
 package updatecolums;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,4 +17,5 @@ public class SalesCustomersData implements Serializable {
     private String city;
     private String state;
     private String zipCode;
+
 }

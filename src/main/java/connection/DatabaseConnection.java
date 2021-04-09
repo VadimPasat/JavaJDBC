@@ -9,7 +9,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-
 @Log4j
 public class DatabaseConnection {
     private static DatabaseConnection dbInstance;

@@ -34,6 +34,7 @@ public class Task3DeleteData {
         assertThat("Brand record is deleted", isDeleted, is(true));
     }
 
+
     @Test
     public void testDeleteCustomers() {
         boolean isDeleted = false;

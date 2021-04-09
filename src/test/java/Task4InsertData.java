@@ -38,6 +38,7 @@ public class Task4InsertData {
         assertThat("Brand is added", rowsUpdated > 0, is(true));
     }
 
+
     @Test
     public void testInsertIntoCustomersTable() {
         int rowsUpdated = 0;

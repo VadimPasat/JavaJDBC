@@ -37,6 +37,7 @@ public class Task5BulkInsertData {
         assertThat("Customers are added from .csv file", isUpdated, is(true));
     }
 
+
     @Test
     public void testInsertBrandsFromCSV() throws SQLException {
         boolean isUpdated = false;

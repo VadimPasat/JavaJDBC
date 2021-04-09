@@ -82,6 +82,7 @@ public class Task1ReadData {
                 is(id));
     }
 
+
     @Test
     public void testSelectBrandsTable() throws SQLException {
         String brandName = "Strider";
