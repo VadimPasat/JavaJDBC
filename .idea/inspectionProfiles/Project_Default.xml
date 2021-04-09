@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DeprecatedLombok" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="Lombok" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="RedundantModifiersUtilityClassLombok" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="RedundantModifiersValLombok" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="RedundantModifiersValueLombok" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="RedundantSlf4jDefinition" enabled="true" level="TYPO" enabled_by_default="true" />
+  </profile>
+</component>
